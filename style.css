@@ -30,15 +30,19 @@ body.light-theme {
 }
 
 body{
-    background-color: var(--primary-color);
-    /* background:linear-gradient(to right,#e2e2e2,#c9d6ff); */
+    /* background-color: var(--primary-color); */
+    background:linear-gradient(to right,#e2e2e2,#c9d6ff);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .container{
     background: var(--secondary-color);
-    width:450px;
+    width:30rem;
     padding:1.5rem;
-    margin:50px auto;
-    border-radius:10px;
+    margin:3.5rem auto;
+    border-radius: 0.5rem;
     /* box-shadow:0 20px 35px rgba(53, 53, 54, 0.9); */
 }
 form{
@@ -124,35 +128,17 @@ button{
 button:hover{
     opacity: 0.7;
 }
-/* .or{
-    font-size:1.1rem;
-    margin-top:0.5rem;
-    text-align:center;
-} */
-/* .icons{
-    text-align:center;
-} */
-/* .icons i{
-    color:rgb(125,125,235);
-    padding:0.8rem 1.5rem;
-    border-radius:10px;
-    font-size:1.5rem;
-    cursor:pointer;
-    border:2px solid #dfe9f5;
-    margin:0 15px;
-    transition:1s;
-}
-.icons i:hover{
-    background:#07001f;
-    font-size:1.6rem;
-    border:2px solid rgb(125,125,235);
-} */
+
 .links{
     display:flex;
     justify-content:space-around;
     padding:0 4rem;
     margin-top:0.9rem;
     font-weight:bold;
+}
+
+.links p {
+    color: #fff;
 }
 
  #signUpButton, #signInButton{
