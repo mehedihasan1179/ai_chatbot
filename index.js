@@ -23,8 +23,10 @@ const chatHistoryList = document.querySelector(".chat-history-item");
 const menuButton = document.querySelector(".menu-button");
 
 
-const API_KEY = "AIzaSyDKwoEk7nTsW_lGHy0LbunZWiIvejMIgeM";
-const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
+// const API_KEY = "AIzaSyDKwoEk7nTsW_lGHy0LbunZWiIvejMIgeM";
+const API_KEY = "AIzaSyCUDvkmQGRJeijYSw_lAkTvBuTXTWKP3iY";
+// const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
+const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${API_KEY}`;
 
 let userData = { message: "", file: {} };
 let chatSessions = [];
